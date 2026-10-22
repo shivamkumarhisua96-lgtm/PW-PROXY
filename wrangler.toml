@@ -1,0 +1,8 @@
+name = "pw-proxy"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+
+# Optional: keep the token out of URLs.
+#   npx wrangler secret put PW_TOKEN      (your bearer token)
+#   npx wrangler secret put ACCESS_KEY    (any long random string)
+# Then call:  /batch/<id>/details?key=<ACCESS_KEY>
